@@ -1,5 +1,7 @@
 package lectures.part2oop
 
+import scala.language.postfixOps
+
 object Exceptions extends App{
   val x: String = null
   // println(x.length) - this will crash with NullPointerException
