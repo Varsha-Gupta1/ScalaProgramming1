@@ -1,5 +1,7 @@
 package lectures.part3functionalProg
 
+import scala.util.Random
+
 
 object Sequences extends App {
   //Seq
@@ -53,7 +55,7 @@ object Sequences extends App {
   val maxCapacity = 1000000
   val maxRuns = 1000
   def getWriteTime(collection: Seq[Int]) : Double = {
-    val r = scala.util.Random
+    val r = new Random //scala.util.Random
     val times = for{
       it <- 1 to maxRuns
     } yield {
