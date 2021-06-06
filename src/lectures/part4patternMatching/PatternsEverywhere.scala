@@ -43,7 +43,11 @@ object PatternsEverywhere extends App{
   val (a,b,c) = (1,2,3)
   // multiple value def based on pattern matching
   // ALL THE POWER
-    .
+
+
+
+
+
   val head::tail = list
   println(head)
   println(tail)
