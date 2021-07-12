@@ -16,6 +16,7 @@ object MapFlatmapFilterFor extends App{
   //flatmap
   val toPair = (x: Int) => List(x,x+1)
   println(list.flatMap(toPair))
+  println(list.flatMap((x: Int) => List(x,x+1)))
   
   //print all combinations between two lists
   val numbers  = List(1,2,3,4)

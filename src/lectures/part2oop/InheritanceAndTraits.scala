@@ -41,7 +41,7 @@ class Adult(name: String, age: Int, idCard: String) extends Person(name,age)
   val unknownAnimal: Animal = new Dog("K9")
  // unknownAnimal.eat -- even if eat method is not protected, it will take overridden value
   
-  //overridding(diff implementation of same method in derived classes) 
+  //overriding(diff implementation of same method in derived classes)
   //vs overloading(methods within same class with same name but different signature)
   
   //super

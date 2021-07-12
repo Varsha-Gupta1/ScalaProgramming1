@@ -1,7 +1,7 @@
 package lectures.part2oop
 
 object AbstractDataTypes extends App{
-  //Abstract class - no definition, can't be intanciated 
+  //Abstract class - no definition, can't be instantiated
   abstract class Animal{
     val creatureType: String
     def eat: Unit
@@ -9,7 +9,7 @@ object AbstractDataTypes extends App{
  
   class Dog extends Animal{
      val creatureType: String  = "Canine"
-     def eat: Unit = println("chrunch chrunch")
+     def eat: Unit = println("crunch crunch")
     }
   
   //traits
@@ -28,7 +28,7 @@ object AbstractDataTypes extends App{
   croc.eat(dog)
 //traits Vs abstract classes
  /*
-  1. Traits do not have constructor parameters(arguements)
+  1. Traits do not have constructor parameters(arguments)
   2. multiple traits can be inherited by the same class
   3. traits = behavior but abstract class = 'thing'
 */

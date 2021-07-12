@@ -74,6 +74,6 @@ class Counter(val n: Int){
   
   def print() = println(n)
 }
-//class parameter are NOT FIELDs
+//class parameter are NOT FIELDS
 
 
